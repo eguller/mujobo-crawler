@@ -1,0 +1,14 @@
+name: Kariyer
+entryPoint: "http://kariyer.net/website/index.aspx"
+jobUrl: "a[href^=/is-ilani]"
+data:
+- {
+  name: "title",
+  : "true",
+  selector: "div#divIlanDetay"
+}
+#{
+#  name: "location"
+#  mandatory: "true"
+#  selector: "span:contains(Şehir/Ülke) > span"
+#}

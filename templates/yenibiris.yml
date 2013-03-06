@@ -1,0 +1,21 @@
+name: Kariyer
+entryPoint: "http://yenibiris.com/IsIlanlari/Ilanlar.aspx?CustomerID=110352"
+jobUrl: "a[href*=.ilan]"
+data:
+- {
+  name: "detay",
+  mandatory: "true",
+  selector: "div.fl.generalLeftColumn.forOtherTemplate"
+}
+
+#- {
+#  name: "ref",
+#  mandatory: "true",
+#  selector: "h1[class=fontbig] > span"
+#}
+
+#- {
+#  name: "location",
+#  mandatory: "true",
+#  selector: "span:contains(Şehir/Ülke) > span"
+#}
